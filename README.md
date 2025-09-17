@@ -5,13 +5,17 @@ As a Lab Assistant at Jetking, I was responsible for maintaining 50+ lab PCs, wh
 Monitor 50+ lab PCs automatically. Collect hardware, OS, software, and network details. Send this data to AWS and display it on a dashboard.
 
 # Core Components:
-Client side (system.py) → Runs on every PC, collects info.  
+Client side (system.py) → Runs on every PC, collects info. 
+
 Cloud side (AWS) → Stores and processes data.
-Streamlit → Monitoring System 
+
+Streamlit → Monitoring System.
+
 Automation → Runs automatically on system boot.
 
 # Project Setup Guide:
 ----
 Before you begin, ensure you have:
 •	AWS Account (Free Tier is enough) -  https://aws.amazon.com/console
+
 •	Python 3.8+ installed on lab PCs -  https://www.python.org/downloads
