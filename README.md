@@ -16,6 +16,7 @@ Automation → Runs automatically on system boot.
 # Project Setup Guide:
 ----
 Before you begin, ensure you have:
+
 •	AWS Account (Free Tier is enough) -  https://aws.amazon.com/console
 
 •	Python 3.8+ installed on lab PCs -  https://www.python.org/downloads
