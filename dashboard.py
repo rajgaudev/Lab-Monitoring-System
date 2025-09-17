@@ -56,7 +56,7 @@ if not st.session_state['authenticated']:
         username = st.text_input('👤 Username')
         password = st.text_input('🔒 Password', type='password')
         if st.button('🚀 Login'):
-            if username == 'jetking' and password == 'jetking@vashi':
+            if username == 'jetking' and password == 'jetking@raj':
                 st.session_state['authenticated'] = True
                 st.rerun()
             else:
@@ -225,3 +225,4 @@ for pc in sorted(filtered, key=lambda x: natural_sort_key(x.get("device_name", "
                     st.markdown(f"{icon} **{key}**: {value}")
             else:
                 st.markdown("⚠️ No software data reported.")
+
