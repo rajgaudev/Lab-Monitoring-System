@@ -64,7 +64,7 @@ if not st.session_state['authenticated']:
     st.stop()
 
 # ==== Page Setup ====
-st.set_page_config(page_title="Lab PC Monitoring Dashboard", layout="wide")
+st.set_page_config(page_title="Lab Monitoring Dashboard", layout="wide")
 st.title("🖥️ Lab PC Monitoring Dashboard")
 st.caption("Real-time lab PC monitoring dashboard powered by AWS and Streamlit.")
 
@@ -225,4 +225,5 @@ for pc in sorted(filtered, key=lambda x: natural_sort_key(x.get("device_name", "
                     st.markdown(f"{icon} **{key}**: {value}")
             else:
                 st.markdown("⚠️ No software data reported.")
+
 
