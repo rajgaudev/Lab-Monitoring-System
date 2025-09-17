@@ -9,7 +9,7 @@ import subprocess
 import re
 import requests
 
-API_URL = "https://h5tvmcxby1.execute-api.ap-south-1.amazonaws.com/monitor"
+API_URL = "https://<api-id>.execute-api.ap-south-1.amazonaws.com/monitor"
 
 def get_serial_number():
     try:
@@ -148,3 +148,4 @@ if __name__ == "__main__":
         print("✔️ Data sent to AWS:", response.text)
     except Exception as e:
         print("❌ Failed to send data to AWS:", str(e))
+
