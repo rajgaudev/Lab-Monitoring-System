@@ -2,7 +2,7 @@ import json
 import boto3
 from decimal import Decimal
 
-# Initialize DynamoDB
+# Initialize DynamoDB 
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('LabMonitoring')
 
@@ -39,4 +39,5 @@ def lambda_handler(event, context):
             'statusCode': 500,
             'body': json.dumps(f"Error: {str(e)}")
         }
+
 
