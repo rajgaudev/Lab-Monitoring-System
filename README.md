@@ -3,8 +3,9 @@ The Automated Lab Monitoring System is a cloud-based solution that collects and 
 
 🔗 Demo: lab-monitoring-system.streamlit.app
 
-{Username: jetking}
-{password: jetking@raj}
+Username: jetking
+
+password: jetking@raj
 
 ----
 
