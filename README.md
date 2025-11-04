@@ -1,7 +1,10 @@
 # Lab-Monitoring-System
 The Automated Lab Monitoring System is a cloud-based solution that collects and monitors system information from 50+ lab PCs automatically. A Python script runs at startup, sending data to AWS (API Gateway + Lambda + DynamoDB), while a Streamlit dashboard provides real-time status and alerts. This project reduces manual effort, ensures PCs are always ready for students, and demonstrates practical use of Python, Cloud, and Automation in IT infrastructure management.
 
-Demo: lab-monitoring-system.streamlit.app
+🔗 Demo: lab-monitoring-system.streamlit.app
+
+{Username: jetking}
+{password: jetking@raj}
 
 ----
 
